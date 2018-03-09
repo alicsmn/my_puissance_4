@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <title>Petit jeu de puissance 4</title>
+</head>
+<body>
+<h1>Bienvenue et bon jeu !!!!!</h1>
+<div id="jeu"></div>
+<script src="script.js"></script>
+<script> //Appel du plugin
+  $(document).ready(function() {
+    $("#jeu").puissance4({
+        /*grid : {"ROWS": 4, "COLS": 7},
+        player_1 :  { "jetonR":"pink" },*/
+    });
+  });
+</script>
+</body>
+</html>
